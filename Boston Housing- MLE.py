@@ -85,4 +85,4 @@ if __name__ == "__main__":
     print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
     trainData, testData = splitData(preProcesseddataSet, testFrac=0.6)
     accuracy, cm = mle(trainData, testData)
-    print("Accuracy:\t", accuracy, "\nCM:\n", cm)
+    print("Accuracy:\t", accuracy, "\nCM:\n", cm) 
